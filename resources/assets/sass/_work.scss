@@ -1,0 +1,15 @@
+.work-card {
+    border-left: 3px solid $color-amber;
+    & .fa {
+        color: $color-amber;
+    }
+}
+
+.work {
+    &:not(:last-of-type) {
+        border-bottom: 1px solid $color-grey;
+    }
+    &:first-of-type {
+        padding-top: 0 !important;
+    }
+}

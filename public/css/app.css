@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.card {
+  margin-bottom: 8px;
+}
+
+.main {
+  border-left: 1px solid #F5F5F5;
+}
+
+#resume,
+#projects {
+  background-color: #FAFAFA;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EEEEEE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #212121;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h2.section-heading {
+  font-size: 40px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.navbar-brand {
+  color: #F44336 !important;
+}
+
+#navbar .active .nav-link {
+  color: #F44336 !important;
+}
+
+#landing {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 80%, rgba(244, 67, 54, 0.7) 80%, rgba(244, 67, 54, 0.7) 100%), url("/images/landing.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#landing .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#landing h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  line-height: inherit;
+}
+
+.about-card {
+  border-left: 3px solid #00BCD4;
+}
+
+.about-card .fa {
+  width: 20px;
+  text-align: center;
+  color: #00BCD4;
+}
+
+.skills-card {
+  border-left: 3px solid #4CAF50;
+}
+
+.skills-card .fa {
+  color: #4CAF50;
+}
+
+.skillset:not(:last-of-type) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.skillset:first-of-type {
+  padding-top: 0 !important;
+}
+
+.skillset .list-unstyled {
+  margin-bottom: 0px !important;
+}
+
+.work-card {
+  border-left: 3px solid #FFC107;
+}
+
+.work-card .fa {
+  color: #FFC107;
+}
+
+.work:not(:last-of-type) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.work:first-of-type {
+  padding-top: 0 !important;
+}
+
+.education-card {
+  border-left: 3px solid #F44336;
+}
+
+.education-card .fa {
+  color: #F44336;
+}
+
+.education:not(:last-of-type) {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.education:first-of-type {
+  padding-top: 0 !important;
+}
+
+#projects {
+  margin-top: 60px;
+}
+
+.project-card {
+  border-left: 3px solid #9C27B0;
+}
+
+.project-card h3,
+.project-card .fa {
+  color: #9C27B0;
+}
+
+.project-card a {
+  color: #673AB7 !important;
+  cursor: pointer !important;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.project-card a:hover {
+  color: #3F51B5 !important;
+  text-decoration: underline !important;
+}
+
+footer {
+  background-color: #212121;
+  color: #FFFFFF;
+  text-align: center;
+}
+

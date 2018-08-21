@@ -1,0 +1,17 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.card {
+	margin-bottom: 8px;
+}
+
+.main {
+	border-left: 1px solid $color-grey-light;
+}
+
+#resume, #projects {
+	background-color: $color-grey-light-1;
+}

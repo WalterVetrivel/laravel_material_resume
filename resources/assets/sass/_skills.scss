@@ -1,0 +1,19 @@
+.skills-card {
+    border-left: 3px solid $color-green;
+
+    .fa {
+        color: $color-green;
+    }
+}
+
+.skillset {
+    &:not(:last-of-type) {
+        border-bottom: 1px solid $color-grey;
+    }
+    &:first-of-type {
+        padding-top: 0 !important;
+    }
+    .list-unstyled {
+        margin-bottom: 0px !important;
+    }
+}

@@ -1,0 +1,15 @@
+.education-card {
+    border-left: 3px solid $color-red;
+    .fa {
+        color: $color-red;
+    }
+}
+
+.education {
+    &:not(:last-of-type) {
+        border-bottom: 1px solid $color-grey;
+    }
+    &:first-of-type {
+        padding-top: 0 !important;
+    }
+}
